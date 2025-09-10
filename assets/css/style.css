@@ -97,3 +97,7 @@ img{max-width:100%;display:block}
 
 /* Background canvas layer */
 #bg{position:fixed;inset:0;z-index:-1;display:block;background:linear-gradient(180deg,#0f1113 0%, #0b0c0d 100%);}
+
+html,body{
+  background-image: none !important;
+}
