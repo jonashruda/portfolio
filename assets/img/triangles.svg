@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
-  <defs>
-    <pattern id="tri" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M0 40 L20 0 L40 40Z" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
-    </pattern>
-  </defs>
-  <rect width="160" height="160" fill="url(#tri)"/>
-</svg>
