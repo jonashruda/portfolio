@@ -1,0 +1,2 @@
+Low-poly vehicle modeled and shaded for a stylized scene. Tools: Blender.
+Notes: replace images in assets/img/ with renders and update imageUrls.

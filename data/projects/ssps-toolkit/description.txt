@@ -1,0 +1,2 @@
+Utilities for students at SSPŠ. Stack: TypeScript, Node.js. Features: CLI helpers, scripts.
+Notes: link the repo and add a demo if hosted.

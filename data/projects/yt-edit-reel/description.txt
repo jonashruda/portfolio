@@ -1,0 +1,2 @@
+Video edit highlights. Tools: Premiere Pro, After Effects. Role: editing, color, motion.
+Notes: replace videoUrl in data/projects.json with your real YouTube or Vimeo embed link.

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jonáš Hruda — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="./" class="brand">
+        <span class="dot"></span><span>jonashruda</span>
+      </a>
+      <nav>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="btn btn-ghost">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <p id="intro" class="intro">Welcome to my portfolio.</p>
+      <h1 id="heroTitle" class="title">Programming · Video · 3D</h1>
+      <p class="subtitle" id="subtitle">Programming · Video · 3D</p>
+      <div class="filters" id="filters">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="programming">Programming</button>
+        <button class="chip" data-filter="video">Video</button>
+        <button class="chip" data-filter="3d">3D</button>
+      </div>
+    </section>
+
+    <section id="projects" class="container">
+      <div id="projectsGrid" class="grid"></div>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>About</h2>
+      <div id="bio" class="card bio"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Jonáš Hruda</p>
+      <a class="repo" href="https://github.com/jonashruda/portfolio" target="_blank" rel="noopener">GitHub repo</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/bg.js"></script>
+</body>
+</html>
