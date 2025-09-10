@@ -1,0 +1,1 @@
+Utilities for students at SSPŠ. TypeScript.

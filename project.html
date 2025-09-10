@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title id="titleTag">Project — Jonáš Hruda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=4" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="./" class="brand">
+        <span class="dot"></span><span>jonashruda</span>
+      </a>
+      <nav>
+        <a href="./#projects" class="nav-link">Projects</a>
+        <a href="./#about" class="nav-link">About</a>
+        <a href="./#contact" class="btn btn-ghost">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container project-page">
+    <article id="projectArticle" class="card project-card">
+      <div class="project-head">
+        <h1 id="projectTitle">Loading…</h1>
+        <span id="projectCategory" class="chip muted">…</span>
+      </div>
+      <div id="projectMedia" class="project-media"></div>
+      <div id="projectDescription" class="project-description"></div>
+      <div id="projectLinks" class="project-links"></div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Jonáš Hruda</p>
+      <a class="repo" href="https://github.com/jonashruda/portfolio" target="_blank" rel="noopener">GitHub repo</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/project.js?v=4"></script>
+  <script src="assets/js/bg-refined.js?v=4"></script>
+</body>
+</html>
