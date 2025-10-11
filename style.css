@@ -20,14 +20,39 @@ img{max-width:100%;display:block}
 
 /* Layout */
 .container{width:min(1200px, 92%);margin:40px auto}
-.topbar{position:sticky;top:0;background:rgba(14,15,16,0.6);backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid #1b1d20;z-index:10}
-.topbar .brand{display:flex;align-items:center;gap:10px;padding:14px 24px}
-.topbar .nav{margin-left:auto;position:absolute;right:24px;top:10px;display:flex;gap:18px}
-.topbar .nav a{padding:8px 12px;border-radius:12px;background:transparent;transition:transform .2s ease, background .2s ease}
-.topbar .nav a:hover{background:#141619;transform:translateY(-2px)}
+/* Header: centered brand, no nav */
+.topbar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(14,15,16,0.6);
+  backdrop-filter: saturate(140%) blur(8px);
+  border-bottom: 1px solid #1b1d20;
+  display: flex;
+  align-items: center;
+  justify-content: center;   /* center brand horizontally */
+  padding: 12px 0;           /* vertical breathing room */
+}
 
-.logo{width:26px;height:26px}
-.brand-name{font-weight:700;letter-spacing:.2px}
+.topbar .brand{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 0;                /* was 14px; not needed now */
+}
+
+.nav{ display: none !important; } /* hide the old tabs if any remain */
+
+.logo{
+  width: 40px;               /* bigger logo */
+  height: 40px;
+}
+
+.brand-name{
+  font-weight: 800;
+  font-size: 22px;           /* bigger text */
+  letter-spacing: .3px;
+}
 
 .hero h1{font-size:40px;margin:10px 0 8px}
 .filters{display:flex;gap:10px;margin:16px 0}
