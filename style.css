@@ -77,13 +77,16 @@ img{max-width:100%;display:block}
   position: relative; /* keeps badges aligned */
 }
 
-.card-media .skeleton {
-  width: 60%;
-  height: 8px;
-  background: #2f3338;
-  border-radius: 6px;
-  opacity: 0.4;
-  margin-top: 10px;
+.card-media {
+  height: 200px;
+  background: radial-gradient(50% 50% at 50% 40%, #262a2f 0%, #17191c 100%);
+  overflow: hidden;
+  position: relative;
+}
+.card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .card-media .skeleton::after {
