@@ -65,13 +65,19 @@ async function loadText(path){ const r = await fetch(path); return await r.text(
     a.rel = 'noopener';
 
     a.innerHTML = `
-      <div class="card-media"><div class="skeleton"></div></div>
+      <div class="card-media">
+        ${item.thumbnail
+          ? `<img src="${item.thumbnail}" alt="${item.title} thumbnail" style="width:100%;height:100%;object-fit:cover;">`
+          : '<div class="skeleton"></div>'}
+      </div>
+    
       <div class="card-body">
         <h3 class="card-title">${item.title}</h3>
         <p class="card-desc">${item.desc}</p>
       </div>
     `;
     return a;
+
   }
 
   function renderCards(){
