@@ -44,8 +44,8 @@ img{max-width:100%;display:block}
 .nav{ display: none !important; } /* hide the old tabs if any remain */
 
 .logo{
-  width: 40px;               /* bigger logo */
-  height: 40px;
+  width: 60px;               /* bigger logo */
+  height: 60px;
 }
 
 .brand-name{
