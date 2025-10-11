@@ -36,6 +36,7 @@ async function loadText(path){ const r = await fetch(path); return await r.text(
       href: site.links.videoChannel,
       desc: 'Portfolio channel with edits and shorts.',
       badge: 'Video',
+      thumbnail: 'assets/placeholders/Videoediting.png'
     },
     {
       title: '3D Modeling',
