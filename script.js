@@ -47,7 +47,7 @@ async function loadText(path){ const r = await fetch(path); return await r.text(
       thumbnail: 'assets/placeholders/3dmodeling.png'
     },
     {
-      title: 'SSPŠ Toolkit',
+      title: 'Programming',
       category: 'Programming',
       href: site.links.programmingProject || 'https://jonashruda.github.io/Eco-AI/',
       desc: 'Featured project.',
