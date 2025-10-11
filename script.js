@@ -34,7 +34,7 @@ async function loadText(path){ const r = await fetch(path); return await r.text(
       title: 'Video Editing',
       category: 'Video',
       href: site.links.videoChannel,
-      desc: 'Portfolio channel with edits and shorts.',
+      desc: 'Portfolio channel with videos and shorts.',
       badge: 'Video',
       thumbnail: 'assets/placeholders/Videoediting.png'
     },
@@ -42,7 +42,7 @@ async function loadText(path){ const r = await fetch(path); return await r.text(
       title: '3D Modeling',
       category: '3D',
       href: 'models.html',
-      desc: 'My 3D work, loaded from content/models.json',
+      desc: 'My 3D work',
       badge: '3D',
       thumbnail: 'assets/placeholders/3dmodeling.png'
     },
