@@ -44,6 +44,7 @@ async function loadText(path){ const r = await fetch(path); return await r.text(
       href: 'models.html',
       desc: 'My 3D work, loaded from content/models.json',
       badge: '3D',
+      thumbnail: 'assets/placeholders/3dmodeling.png'
     },
     {
       title: 'SSPŠ Toolkit',
