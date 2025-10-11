@@ -1,0 +1,62 @@
+/* ===== Theme tokens loaded from content/site.json in JS, but defaults here for fast paint ===== */
+:root{
+  --bg:#0e0f10;
+  --panel:#151719;
+  --panel-2:#1c1f23;
+  --text:#e6e7e8;
+  --muted:#a0a4aa;
+  --accent:#ff7a1a;
+  --ring: rgba(255,122,26,0.35);
+  --radius:16px;
+  --shadow:0 10px 30px rgba(0,0,0,0.35);
+}
+
+/* Reset-ish */
+*{box-sizing:border-box}
+html,body{height:100%}
+html,body{margin:0;padding:0;background:linear-gradient(180deg,#0f1113 0%, #0b0c0d 100%);color:var(--text);font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+
+/* Layout */
+.container{width:min(1200px, 92%);margin:40px auto}
+.topbar{position:sticky;top:0;background:rgba(14,15,16,0.6);backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid #1b1d20;z-index:10}
+.topbar .brand{display:flex;align-items:center;gap:10px;padding:14px 24px}
+.topbar .nav{margin-left:auto;position:absolute;right:24px;top:10px;display:flex;gap:18px}
+.topbar .nav a{padding:8px 12px;border-radius:12px;background:transparent;transition:transform .2s ease, background .2s ease}
+.topbar .nav a:hover{background:#141619;transform:translateY(-2px)}
+
+.logo{width:26px;height:26px}
+.brand-name{font-weight:700;letter-spacing:.2px}
+
+.hero h1{font-size:40px;margin:10px 0 8px}
+.filters{display:flex;gap:10px;margin:16px 0}
+.chip{font-size:14px;padding:6px 12px;border-radius:999px;background:#141619;border:1px solid #202327;color:var(--text);cursor:pointer;transition:transform .2s, box-shadow .2s}
+.chip.active,.chip:hover{box-shadow:0 0 0 4px var(--ring);transform:translateY(-2px)}
+
+/* Card grid */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+@media (max-width: 960px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width: 640px){.grid{grid-template-columns:1fr}}
+
+.card{background:linear-gradient(180deg, var(--panel) 0%, var(--panel-2) 100%);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;position:relative;border:1px solid #202327;transform:translateY(0);transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease}
+.card:hover{transform:translateY(-6px);box-shadow:0 18px 50px rgba(0,0,0,0.55);border-color:#2a2f35}
+.card-media{height:140px;background:radial-gradient(50% 50% at 50% 40%, #262a2f 0%, #17191c 100%);display:flex;align-items:center;justify-content:center}
+.card-media .skeleton{width:60%;height:8px;background:#2f3338;border-radius:6px;position:relative}
+.card-media .skeleton:after{content:"";position:absolute;left:0;top:-14px;width:48%;height:8px;background:#2f3338;border-radius:6px}
+.badges{position:absolute;left:16px;bottom:16px;display:flex;gap:8px}
+.badge{background:#14171a;padding:6px 10px;border-radius:999px;border:1px solid #23272b;font-size:12px}
+
+.card-body{padding:18px}
+.card-title{font-size:18px;font-weight:700;margin:0 0 8px}
+.card-desc{font-size:14px;color:var(--muted);margin:0}
+
+.panel{background:linear-gradient(180deg, var(--panel) 0%, var(--panel-2) 100%);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px;border:1px solid #202327}
+.muted{color:var(--muted)}
+
+.about,.contact{margin-top:40px}
+.footer{padding:24px 0;margin-top:40px;border-top:1px solid #1c1f23;text-align:center;color:var(--muted)}
+
+/* Fancy hover glow for interactive elements */
+a.button{display:inline-block;margin-top:10px;padding:10px 14px;border-radius:12px;border:1px solid #24272b;background:#141619;transition:box-shadow .25s, transform .25s}
+a.button:hover{box-shadow:0 0 0 6px var(--ring);transform:translateY(-2px)}

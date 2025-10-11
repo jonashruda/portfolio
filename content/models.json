@@ -1,0 +1,25 @@
+{
+  "intro": "3D models I built. Edit content/models.json to add or remove cards.",
+  "models": [
+    {
+      "title": "Sample Chair",
+      "thumbnail": "assets/placeholders/chair.png",
+      "description": "Low‑poly chair, 1.1k tris.",
+      "files": [
+        {
+          "label": "GLB",
+          "url": "https://example.com/chair.glb"
+        },
+        {
+          "label": "Images",
+          "url": "https://example.com/chair-images"
+        }
+      ],
+      "tags": [
+        "3D",
+        "Furniture",
+        "Lowpoly"
+      ]
+    }
+  ]
+}

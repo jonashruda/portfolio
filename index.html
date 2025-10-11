@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>jonashruda | Portfolio</title>
+  <!-- Base is set dynamically by script using content/site.json:basePath -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <!-- Your logo (favicon) reused as brand mark -->
+      <img src="assets/favicon.svg" alt="logo" class="logo" />
+      <a class="brand-name" href="index.html">jonashruda</a>
+    </div>
+    <nav class="nav">
+      <!-- Links use hash anchors, so GitHub Pages path is safe -->
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1 id="headline">Welcome to my portfolio.</h1>
+      <div id="filters" class="filters"></div>
+    </section>
+
+    <!-- Cards container -->
+    <section id="projects" class="grid"></section>
+
+    <section id="about" class="about">
+      <h2>About</h2>
+      <div id="about-content" class="panel"></div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:contactjonashruda@gmail.com">contactjonashruda@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Jonáš Hruda.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

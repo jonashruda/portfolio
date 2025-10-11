@@ -1,0 +1,25 @@
+{
+  "siteTitle": "jonashruda",
+  "headline": "Welcome to my portfolio.",
+  "filters": [
+    "All",
+    "Programming",
+    "Video",
+    "3D"
+  ],
+  "about": "I am Jonáš Hruda. I study at SSPŠ. I build software, make videos, and model in 3D.\nContact: contactjonashruda@gmail.com",
+  "basePath": "/portfolio/",
+  "theme": {
+    "bg": "#0e0f10",
+    "panel": "#151719",
+    "panel2": "#1c1f23",
+    "text": "#e6e7e8",
+    "muted": "#a0a4aa",
+    "accent": "#ff7a1a",
+    "radius": "16px"
+  },
+  "links": {
+    "programmingProject": "https://jonashruda.github.io/Eco-AI/",
+    "videoChannel": "https://youtube.com/@jonashrudaportfolio?si=x8ft9zdbdTAg9fnq"
+  }
+}
