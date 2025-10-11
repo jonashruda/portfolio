@@ -52,6 +52,7 @@ async function loadText(path){ const r = await fetch(path); return await r.text(
       href: site.links.programmingProject || 'https://jonashruda.github.io/Eco-AI/',
       desc: 'Featured project.',
       badge: 'Code',
+      thumbnail: 'assets/placeholders/programming.png'
     }
   ];
 
