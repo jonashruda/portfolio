@@ -64,7 +64,7 @@ async function loadText(path){ const r = await fetch(path); return await r.text(
     a.rel = 'noopener';
 
     a.innerHTML = `
-      <div class="card-media"><div class="skeleton"></div><div class="badges"><span class="badge">${item.badge}</span></div></div>
+      <div class="card-media"><div class="skeleton"></div></div>
       <div class="card-body">
         <h3 class="card-title">${item.title}</h3>
         <p class="card-desc">${item.desc}</p>
