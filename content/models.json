@@ -5,56 +5,19 @@
       "title": "Key",
       "thumbnail": "assets/key3d.png",
       "description": "Working key - Fusion.",
-      "files": [
-        {
-          "label": "GLB",
-          "url": "https://example.com/chair.glb"
-        },
-        {
-          "label": "Images",
-          "url": "https://example.com/chair-images"
-        }
-      ],
-      "tags": [
-        "3D"
-      ]
+      "tags": ["3D"]
     },
     {
       "title": "Phone Stand",
       "thumbnail": "assets/phonestand3d.png",
-      "description": "Modern phone stand - Fusion",
-      "files": [
-        {
-          "label": "GLB",
-          "url": "https://example.com/chair.glb"
-        },
-        {
-          "label": "Images",
-          "url": "https://example.com/chair-images"
-        }
-      ],
-      "tags": [
-        "3D",
-        "useful"
-      ]
+      "description": "Modern phone stand - Fusion.",
+      "tags": ["3D", "useful"]
     },
     {
       "title": "RTX 5090",
       "thumbnail": "assets/5090rtx3d.png",
-      "description": "Model of a founders edition 5090 - Fusion",
-      "files": [
-        {
-          "label": "GLB",
-          "url": "https://example.com/helmet.glb"
-        },
-        {
-          "label": "Render",
-          "url": "https://example.com/helmet-renders"
-        }
-      ],
-      "tags": [
-        "3D",
-      ]
+      "description": "Model of a founders edition 5090 - Fusion.",
+      "tags": ["3D"]
     }
   ]
 }
